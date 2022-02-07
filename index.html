@@ -31,7 +31,43 @@
                 </ul>
             </nav>
         </header>
-        
+        <!--- Signup Form Section --->
+        <section>
+            <div>
+                <h3>Get Started Today</h3>
+                <p>Fill out this form and one of our trainers will schedule a consult</p>
+                <!--- Form --->
+                <form>
+                    <!--- Name Input --->
+                    <label for="name">Enter Full Name</label>
+                    <input type="text" placeholder="Your Name" name="name" id="name"/>
+                    <!--- Email Input --->
+                    <label for="email">Enter Email Address</label>
+                    <input type="email" placeholder="Email Address" name="email" id="email"/>
+                    <!--- Phone Input --->
+                    <label for="phone">Enter a Telephone Phone Number</label>
+                    <input type="tel" placeholder="Phone Number" name="phone" id="phone"/>
+                    <!--- Radio Input --->
+                    <p>
+                        Have you worked with a trainer before?
+                        <!--- Yes Radio --->
+                        <input type="radio" name="trainer-confirm" id="trainer-yes"/>
+                        <label for="trainer-yes">Yes</label>
+                        <!--- Yes Radio --->
+                        <input type="radio" name="trainer-confirm" id="trainer-no"/>
+                        <label for="trainer-no">No</label>
+                    </p>
+                    <!--- Checkbox Input --->
+                    <p>
+                        <label for="checkbox">I acknowledge that I am at least 18 years of age</label>
+                        <input type="checkbox" name="age-confirm" id="checkbox"/>
+                    </p>
+                    <!--- Submit Button --->
+                    <button type="submit">Get Running!</button>
+                </form>
+            </div>
+        </section>
+       
         <!--- Hero/Jumbotron --->
         <section>
         </section>
@@ -59,6 +95,10 @@
         <!--- Footer --->
         <footer>
             <h2>❤️ Made with love by Run Buddy.</h2>
+            <div>
+                <a href="#">Read Our Privacy Policy</a><br/>
+                &copy; 2019 Run Buddy, Inc.
+            </div>
         </footer>
     </body>
 </html>
