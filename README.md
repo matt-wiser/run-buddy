@@ -1,8 +1,4 @@
-<<<<<<< .merge_file_28xJXJ
-# Run Buddy, Inc
-=======
 # Run Buddy Inc.
->>>>>>> .merge_file_tZdmWs
 
 ## Purpose
 A website that offers fitness training services. 
