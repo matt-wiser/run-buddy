@@ -1,13 +1,16 @@
-# Run Buddy
+# Run Buddy, Inc
 
-## A website that offers fitness training services
+## Purpose
+A website that offers fitness training services. 
 
 ## Built With
 * HTML
 * CSS
 
 ## Website
-https://matt-wiser.github.io/run-buddy/
+https://lernantino.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Matthew Wiser
+
+### ©️2019 Run Buddy, Inc 
