@@ -9,6 +9,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.flex-row{
+    display: flex;
+}
+
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -115,12 +119,9 @@ section{
     margin-bottom: 15px;
 }
 
-.intro{
-    text-align: center;
-}
-
 .intro p{
     line-height: 1.7;
+    text-align: center;
     color: #39a6b2;
     width: 80%;
     font-size: 20px;
@@ -130,10 +131,11 @@ section{
 .section-title{
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0 auto 35px auto;
+    width: 50%;
 
 }
 
@@ -146,7 +148,6 @@ section{
 }
 
 .steps{
-    text-align: center;
     background:#fce138;
 }
 
@@ -175,7 +176,7 @@ section{
 }
 
 .trainers{
-    text-align: center;
+
 }
 
 .trainer{
@@ -223,7 +224,6 @@ section{
 
 .contact{
     background: #024e76;
-    text-align: center;
 }
 
 .contact h2{
